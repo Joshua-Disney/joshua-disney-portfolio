@@ -3029,7 +3029,7 @@ button:disabled,
   justify-content: flex-end;
 }
 
-#nav .nav-bar p {
+#nav .nav-bar a {
   /* border: 1px solid orangered; */
   border-radius: 20%;
   margin: 0 1%;
@@ -3037,7 +3037,7 @@ button:disabled,
   font-weight: bold;
 }
 
-#nav .nav-bar p:hover {
+#nav .nav-bar a:hover {
   background-color: #f5763c;
 }
 
