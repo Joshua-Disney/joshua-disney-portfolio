@@ -2496,6 +2496,9 @@ input[type="radio"] + label:before {
   max-height: 200px;
 }
 
+.image.fit .lambda-logo {
+  max-width: 30%;
+}
 /* List */
 
 ol {
@@ -3249,6 +3252,15 @@ body.is-preload #header:after {
   opacity: 1;
 }
 
+.skill-sets {
+  display: flex;
+}
+
+.skill-sets .skills {
+  margin-right: 10em;
+  min-width: 8rem;
+}
+
 /* Footer */
 
 #footer {
@@ -3500,6 +3512,21 @@ body.is-preload #header:after {
   #two {
     text-align: center;
   }
+
+  .skill-sets {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skill-sets .skill-set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-sets .skills {
+    margin: 0 5em 35px;
+  }
 }
 
 /* Small */
@@ -3614,6 +3641,10 @@ body.is-preload #header:after {
     display: none;
   }
 
+  .skill-sets .skills {
+    margin: 0 2em 35px;
+  }
+
   /* Footer */
 
   #footer {
@@ -3656,6 +3687,10 @@ body.is-preload #header:after {
 
   #header {
     padding: 3em 1em 3em 1em;
+  }
+
+  .skill-sets .skills {
+    margin: 0 0.5em 35px;
   }
 
   /* Footer */
