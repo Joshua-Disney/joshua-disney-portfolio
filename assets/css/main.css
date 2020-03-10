@@ -3693,6 +3693,10 @@ body.is-preload #header:after {
     margin: 0 0.5em 35px;
   }
 
+  #experience {
+    margin-top: 20px;
+  }
+
   /* Footer */
 
   #footer {
