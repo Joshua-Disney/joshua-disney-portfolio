@@ -3255,6 +3255,18 @@ body.is-preload #header:after {
   opacity: 1;
 }
 
+#skills {
+  padding-top: 0;
+}
+
+#skill-sets {
+  padding-top: 4em;
+}
+
+#experience {
+  padding-top: 4em;
+}
+
 .skill-sets {
   display: flex;
 }
@@ -3698,10 +3710,6 @@ body.is-preload #header:after {
 
   .skill-sets .skills {
     margin: 0 0.5em 35px;
-  }
-
-  #experience {
-    margin-top: 20px;
   }
 
   /* Footer */
